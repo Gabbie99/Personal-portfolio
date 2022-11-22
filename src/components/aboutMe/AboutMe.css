@@ -29,6 +29,7 @@
 }
 .about-contact {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .about-contact :hover{
     background: rgb(183, 124, 238);

@@ -1,5 +1,10 @@
+.land {
+    /* background-image: url(../../assets/better.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 .myhome {
-    max-height: 60vh;
 }
 .home1 {
     color: #e1e2df;
@@ -18,7 +23,7 @@
     font-size: 15px;
 }
 .view-div {
-    margin: 1.5rem 0 18rem 0;
+    margin: 1.5rem 0 0 0;
 }
 .view-div :hover{
     background: rgb(183, 124, 238);
