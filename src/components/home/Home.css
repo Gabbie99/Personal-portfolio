@@ -1,17 +1,60 @@
+.myhome {
+    max-height: 60vh;
+}
 .home1 {
     color: #e1e2df;
     text-align: center;
-    margin-top: 18rem;
+    margin-top: 12rem;
+}
+.home1 img{
+    object-fit: cover;
+    border-radius: 50%;
 }
 .home1 h1 {
     font-size: 38px;
     color: rgb(183, 124, 238);
 }
+.home1 p {
+    font-size: 15px;
+}
 .view-div {
-    margin: 2rem;
+    margin: 1.5rem 0 20rem 0;
+}
+.view-div :hover{
+    background: rgb(183, 124, 238);
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
 }
 .view {
     border: 1px solid rgb(183, 124, 238);
     padding: 4px;
     color: rgb(183, 124, 238);
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.icons img{
+    background-color: white;
+}
+@media (max-width:320px) {
+    .home1{
+        margin-top: 7rem;
+    }
+    .home1 h1 {
+        font-size: 25px;
+        color: rgb(183, 124, 238);
+    }
+    .home1 p {
+        font-size: 15px;
+    }
+    .home1 .pro{
+        object-fit: cover;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
 }

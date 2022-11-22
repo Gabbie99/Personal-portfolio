@@ -1,0 +1,50 @@
+.about-gen {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.about {
+    width: 60%;
+    margin: auto;
+}
+.about h1{
+    color: rgb(183, 124, 238);
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-text {
+    color: #e1e2df;
+}
+.about-text p{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.about-contact {
+    margin-top: 2rem;
+}
+.about-contact :hover{
+    background: rgb(183, 124, 238);
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+.about-contact span{
+    border: 1px solid rgb(183, 124, 238);
+    padding: 4px;
+}
+@media (max-width:320px) {
+    .about-me {
+        display: grid;
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+    }
+}

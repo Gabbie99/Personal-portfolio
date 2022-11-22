@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1rem;
 }
 .resume a{
     display: flex;
@@ -15,9 +16,29 @@
     border: 1px solid rgb(183, 124, 238);
     padding: 4px;
 }
+.resume :hover{
+    background: rgb(183, 124, 238);
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
 .xan {
     color: #d5d7e2;
 }
 .tech {
     color: rgb(183, 124, 238);
+}
+@media (max-width:320px) {
+    .Navbar {
+        width: 90%;
+        margin: auto;
+    }
+    .resume a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: rgb(183, 124, 238);
+        border: 1px solid rgb(183, 124, 238);
+        padding: 2px;
+    }
 }
