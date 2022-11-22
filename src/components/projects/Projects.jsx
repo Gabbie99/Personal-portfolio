@@ -2,18 +2,17 @@ import React from 'react'
 import './Projects.css'
 import thumb1 from '../../assets/Capture1.JPG'
 import thumb2 from '../../assets/Capture2.JPG'
-import thumb3 from '../../assets/tech.jpg'
-// import thumb4 from '../../assets/Capture1.JPG'
 
 function Projects() {
   return (
     <div className='pro-gen'>
         <div className="project">
+            <h1>My Projects</h1>
             <div className="pro-sec">
-                <div>
+                <div className='pro-img'>
                     <img src={thumb1} alt="" />
-                    <h3></h3>
-                    <p></p>
+                    <h3>Bar-Chart</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div>
                         <span></span>
                         <span></span>
@@ -24,10 +23,10 @@ function Projects() {
                         <button>View Live</button>
                     </div>
                 </div>
-                <div>
+                <div className='pro-img'>
                     <img src={thumb2} alt="" />
-                    <h3></h3>
-                    <p></p>
+                    <h3>Kitten-Album</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div>
                         <span></span>
                         <span></span>
@@ -38,10 +37,10 @@ function Projects() {
                         <button>View Live</button>
                     </div>
                 </div>
-                <div>
-                    <img src={thumb3} alt="" />
-                    <h3></h3>
-                    <p></p>
+                <div className='pro-img'>
+                    <img src={thumb1} alt="" />
+                    <h3>Bar-Chart</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div>
                         <span></span>
                         <span></span>
@@ -52,10 +51,10 @@ function Projects() {
                         <button>View Live</button>
                     </div>
                 </div>
-                <div>
-                    <img src="" alt="" />
-                    <h3></h3>
-                    <p></p>
+                <div className='pro-img'>
+                    <img src={thumb2} alt="" />
+                    <h3>Kitten-Album</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div>
                         <span></span>
                         <span></span>

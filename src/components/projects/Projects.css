@@ -1,0 +1,26 @@
+.pro-gen {
+    border-top: 1px solid grey;
+}
+.project {
+    width: 60%;
+    margin: auto;
+}
+.pro-sec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.pro-img img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+.project h1{
+    color: rgb(183, 124, 238);
+    font-size: 45px;
+    text-align: center;
+}
+.project h3,p {
+    color: #e1e2df;
+    width: 500px;
+}
