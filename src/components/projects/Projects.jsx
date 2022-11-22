@@ -13,10 +13,10 @@ function Projects() {
                     <img src={thumb1} alt="" />
                     <h3>Bar-Chart</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div className='pro-span'>
+                        <span>HTML</span>
+                        <span>HTML</span>
+                        <span>HTML</span>
                     </div>
                     <div>
                         <button>See Code</button>
@@ -27,10 +27,10 @@ function Projects() {
                     <img src={thumb2} alt="" />
                     <h3>Kitten-Album</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div className='pro-span'>
+                        <span>HTML</span>
+                        <span>HTML</span>
+                        <span>HTML</span>
                     </div>
                     <div>
                         <button>See Code</button>
@@ -41,10 +41,10 @@ function Projects() {
                     <img src={thumb1} alt="" />
                     <h3>Bar-Chart</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div className='pro-span'>
+                        <span>HTML</span>
+                        <span>HTML</span>
+                        <span>HTML</span>
                     </div>
                     <div>
                         <button>See Code</button>
@@ -55,10 +55,10 @@ function Projects() {
                     <img src={thumb2} alt="" />
                     <h3>Kitten-Album</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div className='pro-span'>
+                        <span>HTML</span>
+                        <span>HTML</span>
+                        <span>HTML</span>
                     </div>
                     <div>
                         <button>See Code</button>

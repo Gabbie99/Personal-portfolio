@@ -19,8 +19,27 @@
     color: rgb(183, 124, 238);
     font-size: 45px;
     text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
 }
-.project h3,p {
+.project p {
     color: #e1e2df;
     width: 500px;
+    line-height: 25px;
+}
+.project h3 {
+    color: #e1e2df;
+    width: 500px;
+    line-height: 60px;
+}
+.pro-span {
+    color: #e1e2df;
+    display: flex;
+    gap: 20px;
+}
+.pro-span span{
+    border: 1px solid rgb(183, 124, 238);
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin: 1rem 0;
 }
