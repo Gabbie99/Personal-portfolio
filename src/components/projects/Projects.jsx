@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className='pro-gen'>
         <div className="project">
-            <h1>My Projects</h1>
+            <h1>My Projects &#128204;</h1>
             <div className="pro-sec">
                 <div className='pro-img'>
                     <img src={thumb1} alt="" />
@@ -18,7 +18,7 @@ function Projects() {
                         <span>HTML</span>
                         <span>HTML</span>
                     </div>
-                    <div>
+                    <div className='pro-but'>
                         <button>See Code</button>
                         <button>View Live</button>
                     </div>
@@ -32,7 +32,7 @@ function Projects() {
                         <span>HTML</span>
                         <span>HTML</span>
                     </div>
-                    <div>
+                    <div className='pro-but'>
                         <button>See Code</button>
                         <button>View Live</button>
                     </div>
@@ -46,7 +46,7 @@ function Projects() {
                         <span>HTML</span>
                         <span>HTML</span>
                     </div>
-                    <div>
+                    <div className='pro-but'>
                         <button>See Code</button>
                         <button>View Live</button>
                     </div>
@@ -60,13 +60,13 @@ function Projects() {
                         <span>HTML</span>
                         <span>HTML</span>
                     </div>
-                    <div>
+                    <div className='pro-but'>
                         <button>See Code</button>
                         <button>View Live</button>
                     </div>
                 </div>
             </div>
-            <p>View more &rarr;</p>
+            <p className='pro-view'>View more &rarr;</p>
         </div>
     </div>
   )
