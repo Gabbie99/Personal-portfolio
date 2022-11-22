@@ -1,0 +1,23 @@
+.Navbar {
+    width: 60%;
+    margin: auto;
+}
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(183, 124, 238);
+    border: 1px solid rgb(183, 124, 238);
+    padding: 4px;
+}
+.xan {
+    color: #d5d7e2;
+}
+.tech {
+    color: rgb(183, 124, 238);
+}

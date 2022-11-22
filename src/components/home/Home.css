@@ -1,0 +1,17 @@
+.home1 {
+    color: #e1e2df;
+    text-align: center;
+    margin-top: 18rem;
+}
+.home1 h1 {
+    font-size: 38px;
+    color: rgb(183, 124, 238);
+}
+.view-div {
+    margin: 2rem;
+}
+.view {
+    border: 1px solid rgb(183, 124, 238);
+    padding: 4px;
+    color: rgb(183, 124, 238);
+}
