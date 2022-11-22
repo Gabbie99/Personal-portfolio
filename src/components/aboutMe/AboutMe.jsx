@@ -13,7 +13,7 @@ function AboutMe() {
                 height={300} />
             </div>
             <div className='about-text'>
-                <p>Gabrielle Alexander is Mathematics and Education graduate transitioning into Web designs and development. She is a well taught Frontend developer specialized in building responsive websites.</p>
+                <p>Gabrielle Alexander is a Mathematics and Education graduate transitioning into Web designs and development. She is a well taught Frontend developer specialized in building responsive websites.</p>
                 <p>She is an optimistic, enthusiastic and motivated frontend developer that is seeking an opportunity to contribute massively to various institutions and organisations by implementing ideas, ideas, concepts and methodologies learned, in this way, adding values to the organization and society at large.</p>
                 <p>Miss Gabrielle is passionate about building beautiful and functional websites. I build projects using HTML, CSS, Javascript, React etc.</p>
                 <div className="about-contact">

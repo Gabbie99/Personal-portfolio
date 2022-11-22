@@ -42,9 +42,25 @@
 }
 @media (max-width:320px) {
     .about-me {
-        display: grid;
+        display: block;
         justify-content: space-between;
         gap: 30px;
         align-items: center;
+    }
+    .about-img img {
+        width: 250px;
+        height: 250px;
+
+    }
+    .about {
+        width: 80%;
+        margin: auto;
+    }
+    .about-contact {
+        margin-top: 2rem;
+    }
+    .about-gen {
+        border-top: 1px solid grey;
+        /* border-bottom: 1px solid grey; */
     }
 }

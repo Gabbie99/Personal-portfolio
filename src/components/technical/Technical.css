@@ -12,6 +12,7 @@
 .tech-gen {
     width: 40%;
     margin: auto;
+    /* border-top: 1px solid grey; */
 }
 .tech-gen h1{
     color: rgb(183, 124, 238);
