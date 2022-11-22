@@ -1,5 +1,36 @@
 .logos img{
-    width: 100px;
-    height: 100px;
-    /* object-fit: cover; */
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    transform: translateZ(0);
+    transition: all .5s ease-in-out; 
+}
+.logos img :hover{
+    transform: scale(1.05);
+}
+.tech-gen {
+    width: 40%;
+    margin: auto;
+}
+.tech-gen h1{
+    color: rgb(183, 124, 238);
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.logos span{
+    color: #e1e2df;
+}
+.log {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
 }
