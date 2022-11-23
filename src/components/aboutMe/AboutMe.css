@@ -64,4 +64,11 @@
         border-top: 1px solid grey;
         /* border-bottom: 1px solid grey; */
     }
+    .about h1{
+        color: rgb(183, 124, 238);
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+    }
 }
