@@ -1,4 +1,7 @@
 .contact {
+    border-top: 1px solid #444;
+}
+.contact1 {
     width: 60%;
     margin: auto;
 }
@@ -11,4 +14,66 @@
 }
 .contact-text p{
     color: #e1e2df;
+}
+#sp {
+    color: rgb(183, 124, 238);
+}
+.con-icon {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    line-height: 3rem;
+}
+.con-icon span, a {
+    color: #e1e2df;
+    text-decoration: none;
+}
+.contact2 {
+    display: flex;
+    gap: 90px;
+}
+.conform ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.contact-list {
+    display: flex;
+    gap: 1rem;
+}
+.inp{
+    background-color:transparent;
+    border: 1px solid #444;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+.txt {
+    background-color:transparent;
+    border: 1px solid #444;
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 100%;
+}
+#context {
+    background-color:transparent;
+    border: 1px solid #444;
+    padding: .5rem;
+    font-size: 1.2rem;
+    width: 100%;
+}
+::placeholder {
+    font-size: 13px;
+}
+.conform button{
+    background: transparent;
+    border: 1px solid #444;
+    color: rgb(183, 124, 238);
+    padding: .6rem;
+}
+.foot {
+    text-align: center;
+    color: #e1e2df;
+    margin: 2rem auto .5rem auto;
+    border-top: 1px solid #444;
 }
