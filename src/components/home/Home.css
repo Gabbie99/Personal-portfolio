@@ -48,7 +48,7 @@
 .icons img{
     background-color: white;
 }
-@media (max-width:320px) {
+@media (max-width:425px) {
     .home1{
         margin-top: 7rem;
     }

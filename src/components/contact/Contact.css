@@ -88,7 +88,7 @@
     cursor: pointer;
     box-shadow: rgba(215, 201, 226, 0.203) 0px 1px 0px, rgba(236, 233, 240, 0.203) 0px 8px 24px, rgba(195, 186, 212, 0.186) 0px 16px 48px;
 }
-@media (max-width:320px) {
+@media (max-width:425px) {
     .contact2 {
         display: grid;
         gap: 60px;

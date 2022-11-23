@@ -36,7 +36,7 @@
     text-align: center;
     gap: 20px;
 }
-@media (max-width:320px) {
+@media (max-width:425px) {
     .tech-gen h1{
         color: rgb(183, 124, 238);
         font-size: 30px;

@@ -30,7 +30,7 @@
 .tech {
     color: rgb(183, 124, 238);
 }
-@media (max-width:320px) {
+@media (max-width:425px) {
     .Navbar {
         width: 90%;
         margin: auto;

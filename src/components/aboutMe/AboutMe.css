@@ -41,7 +41,7 @@
     border: 1px solid rgb(183, 124, 238);
     padding: 4px;
 }
-@media (max-width:320px) {
+@media (max-width:425px) {
     .about-me {
         display: block;
         justify-content: space-between;
