@@ -80,9 +80,9 @@
     padding: 10px;
 }
 #arrow {
-    position: absolute;
-    right: 250px;
-    bottom: -2930px;
+    float: right;
+    /* right: 250px;
+    bottom: -2930px; */
 }
 #arrow :hover{
     cursor: pointer;
@@ -128,9 +128,9 @@
         margin-bottom: 1rem;
     }
     #arrow {
-        position: absolute;
-        right: 10px;
-        bottom: -5930px;
+        float: right;
+        /* right: 10px;
+        bottom: -5930px; */
     }
     #arrow :hover{
         cursor: pointer;

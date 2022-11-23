@@ -36,7 +36,10 @@
 body {
   background: #070b26;
 }
-
+.App {
+  position: relative;
+}
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -44,4 +47,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
+} */

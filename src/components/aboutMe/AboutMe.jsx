@@ -4,7 +4,7 @@ import blackb from '../../assets/redcup.webp'
 
 function AboutMe() {
   return (
-    <div className='about-gen'>
+    <div className='about-gen' id='about'>
         <div className='about'>
         <h1>About Me &#128156;</h1>
         <div className="about-me">

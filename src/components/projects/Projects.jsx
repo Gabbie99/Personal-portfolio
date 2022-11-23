@@ -10,7 +10,7 @@ function Projects() {
             <h1>My Projects &#128204;</h1>
             <div className="pro-sec">
                 <div className='pro-img'>
-                    <img src={thumb1} alt="" />
+                    <img src={thumb1} alt="" className='thum' />
                     <h3>Bar-Chart</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div className='pro-span'>
@@ -24,7 +24,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className='pro-img'>
-                    <img src={thumb2} alt="" />
+                    <img src={thumb2} alt="" className='thum' />
                     <h3>Kitten-Album</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div className='pro-span'>
@@ -38,7 +38,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className='pro-img'>
-                    <img src={thumb1} alt="" />
+                    <img src={thumb1} alt="" className='thum' />
                     <h3>Bar-Chart</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div className='pro-span'>
@@ -52,7 +52,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className='pro-img'>
-                    <img src={thumb2} alt="" />
+                    <img src={thumb2} alt="" className='thum' />
                     <h3>Kitten-Album</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div className='pro-span'>

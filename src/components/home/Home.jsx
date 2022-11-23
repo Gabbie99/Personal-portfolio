@@ -8,14 +8,14 @@ function Home() {
   return (
     <div className='myhome'>
         <div className="home1">
-            <img src={profile} alt="me" width={200} height={200} className="pro" />
+            <a href="#about"><img src={profile} alt="me" width={200} height={200} className="pro" /></a>
             <h1>Gabrielle Alexander</h1>
             <p>I'm a front-end developer</p>
             <div className="icons">
             <FacebookLogo size={20} color="white" weight="fill" />
             <TwitterLogo size={20} color="white" weight="fill" />
             <LinkedinLogo size={20} color="white" weight="fill" />
-            <img src={git2} alt="git" />
+            <img src={git2} alt="git"id='git' />
             </div>
             <div className='view-div'>
                 <span className='view'><a href='#project'>View my works &darr;</a></span>

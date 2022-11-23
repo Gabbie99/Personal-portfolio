@@ -17,10 +17,11 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: #444 ;
+  width: fit-content;
 }
 
 html::-webkit-scrollbar {
-  width: 1vw;
+  /* width: 1vw; */
 }
 
 html::-webkit-scrollbar-thumb {
