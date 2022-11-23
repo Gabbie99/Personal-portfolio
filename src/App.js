@@ -1,9 +1,8 @@
 import './App.css';
 import AboutMe from './components/aboutMe/AboutMe';
-// import Home from './components/home/Home';
+import Contact from './components/contact/Contact';
 import LandingPage from './components/landingPage/LandingPage';
 import Projects from './components/projects/Projects';
-// import NavBar from './components/navBar/NavBar';
 import Technical from './components/technical/Technical';
 
 function App() {
@@ -13,6 +12,7 @@ function App() {
       <AboutMe/>
       <Technical/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }

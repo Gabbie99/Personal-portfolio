@@ -47,7 +47,7 @@ function Projects() {
                         <span>HTML</span>
                     </div>
                     <div className='pro-but'>
-                        <button>See Code</button>
+                        <button>See Code</button>&nbsp;&nbsp;
                         <button>View Live</button>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ function Projects() {
                         <span>HTML</span>
                     </div>
                     <div className='pro-but'>
-                        <button>See Code</button>
+                        <button>See Code</button>&nbsp;&nbsp;
                         <button>View Live</button>
                     </div>
                 </div>
