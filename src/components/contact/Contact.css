@@ -127,4 +127,20 @@
         font-size: 30px;
         margin-bottom: 1rem;
     }
+    #arrow {
+        position: absolute;
+        right: 10px;
+        bottom: -6020px;
+    }
+    #arrow :hover{
+        cursor: pointer;
+        box-shadow: rgba(215, 201, 226, 0.203) 0px 1px 0px, rgba(236, 233, 240, 0.203) 0px 8px 24px, rgba(195, 186, 212, 0.186) 0px 16px 48px;
+    }
+    .foot {
+        text-align: center;
+        color: #e1e2df;
+        /* margin: 2rem auto .5rem auto; */
+        border-top: 1px solid #444;
+        padding: 10px;
+    }
 }
