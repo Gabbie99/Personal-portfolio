@@ -18,7 +18,7 @@ function Home() {
             <img src={git2} alt="git" />
             </div>
             <div className='view-div'>
-                <span className='view'>View my works &darr;</span>
+                <span className='view'><a href='#project'>View my works &darr;</a></span>
             </div>
         </div>
     </div>

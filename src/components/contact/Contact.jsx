@@ -1,10 +1,10 @@
 import React from 'react'
 import './Contact.css'
-import { MapPin, Envelope, Phone, WhatsappLogo} from 'phosphor-react'
+import { MapPin, Envelope, Phone, WhatsappLogo, ArrowCircleUp} from 'phosphor-react'
 
 function Contact() {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
         <div className="contact1">
           <h1>Contact Me &#128231;</h1>
             <div className="contact2">
@@ -55,7 +55,7 @@ function Contact() {
         </div>
         <footer>
           <div className="foot">
-            <p>&copy; 2022 | Made with &#128150; by Gabbie</p>
+            <span>&copy; 2022 | Made with &#128150; by Gabbie</span>&nbsp; <span id='arrow'><a href="#home"><ArrowCircleUp size={40} color="#ffffff" weight="thin" /></a></span>
           </div>
         </footer>
     </div>

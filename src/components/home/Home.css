@@ -4,7 +4,9 @@
     background-size: cover;
     height: 100vh;
 }
-.myhome {
+.land-nav {
+    position: sticky;
+    top: 0;
 }
 .home1 {
     color: #e1e2df;

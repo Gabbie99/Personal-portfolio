@@ -44,6 +44,7 @@
 }
 .inp{
     background-color:transparent;
+    color: #e1e2df;
     border: 1px solid #444;
     font-size: 1.2rem;
     padding: .5rem;
@@ -76,4 +77,54 @@
     color: #e1e2df;
     margin: 2rem auto .5rem auto;
     border-top: 1px solid #444;
+    padding: 10px;
+}
+#arrow {
+    position: absolute;
+    right: 250px;
+    bottom: -2930px;
+}
+#arrow :hover{
+    cursor: pointer;
+    box-shadow: rgba(215, 201, 226, 0.203) 0px 1px 0px, rgba(236, 233, 240, 0.203) 0px 8px 24px, rgba(195, 186, 212, 0.186) 0px 16px 48px;
+}
+@media (max-width:320px) {
+    .contact2 {
+        display: grid;
+        gap: 60px;
+    }
+    .contact1 {
+        width: 90%;
+        margin: auto;
+    }
+    .inp{
+        background-color:transparent;
+        color: #e1e2df;
+        border: 1px solid #444;
+        font-size: 1.2rem;
+        padding: .5rem;
+        width: 100%;
+    }
+    .txt {
+        background-color:transparent;
+        border: 1px solid #444;
+        font-size: 1.2rem;
+        padding: .5rem;
+        width: 100%;
+    }
+    #context {
+        background-color:transparent;
+        border: 1px solid #444;
+        padding: .5rem;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .contact-list {
+        display: grid;
+        gap: 1rem;
+    }
+    .contact1 h1 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
 }

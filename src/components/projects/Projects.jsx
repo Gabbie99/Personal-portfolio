@@ -5,7 +5,7 @@ import thumb2 from '../../assets/Capture2.JPG'
 
 function Projects() {
   return (
-    <div className='pro-gen'>
+    <div className='pro-gen' id='project'>
         <div className="project">
             <h1>My Projects &#128204;</h1>
             <div className="pro-sec">
@@ -15,12 +15,12 @@ function Projects() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div className='pro-span'>
                         <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>REACT JS</span>
                     </div>
                     <div className='pro-but'>
-                        <button>See Code</button>&nbsp;&nbsp;
-                        <button>View Live</button>
+                        <button><a href='https://github.com/Gabbie99/my-react-charts/tree/master/src'>See Code</a></button>&nbsp;&nbsp;
+                        <button><a href='https://my-react-chart.netlify.app'>View Live</a></button>
                     </div>
                 </div>
                 <div className='pro-img'>
@@ -29,12 +29,12 @@ function Projects() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div className='pro-span'>
                         <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>REACT JS</span>
                     </div>
                     <div className='pro-but'>
-                        <button>See Code</button>&nbsp;&nbsp;
-                        <button>View Live</button>
+                        <button><a href='https://github.com/Gabbie99/react-robofriends/tree/master/src'>See Code</a></button>&nbsp;&nbsp;
+                        <button><a href='https://gabskitten.netlify.app'>View Live</a></button>
                     </div>
                 </div>
                 <div className='pro-img'>
@@ -43,8 +43,8 @@ function Projects() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div className='pro-span'>
                         <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>REACT JS</span>
                     </div>
                     <div className='pro-but'>
                         <button>See Code</button>&nbsp;&nbsp;
@@ -57,8 +57,8 @@ function Projects() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
                     <div className='pro-span'>
                         <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>REACT JS</span>
                     </div>
                     <div className='pro-but'>
                         <button>See Code</button>&nbsp;&nbsp;
@@ -66,7 +66,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <p className='pro-view'>View more &rarr;</p>
+            <p className='pro-view'>View More Projects &rarr;</p>
         </div>
     </div>
   )

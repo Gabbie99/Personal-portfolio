@@ -17,7 +17,7 @@ function AboutMe() {
                 <p>She is an optimistic, enthusiastic and motivated frontend developer that is seeking an opportunity to contribute massively to various institutions and organisations by implementing ideas, ideas, concepts and methodologies learned, in this way, adding values to the organization and society at large.</p>
                 <p>Miss Gabrielle is passionate about building beautiful and functional websites. I build projects using HTML, CSS, Javascript, React etc.</p>
                 <div className="about-contact">
-                    <span>Contact Me</span>
+                    <span><a href='#contact'>Contact Me</a></span>
                 </div>
             </div>
         </div>

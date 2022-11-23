@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  /* font-size: 90%; */
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #444 var(--bg-color);
+}
+
+html::-webkit-scrollbar {
+  /* width: 1vw; */
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #444;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: var(--text-color);
+}

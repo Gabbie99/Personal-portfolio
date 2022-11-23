@@ -7,8 +7,10 @@ import Home from '../home/Home'
 
 function LandingPage() {
   return (
-    <div className='land'>
-        <NavBar/>
+    <div className='land' id='home'>
+        <div className='land-nav'>
+          <NavBar/>
+        </div>
         <Home/>
     </div>
   )
