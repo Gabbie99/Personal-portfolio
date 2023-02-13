@@ -44,7 +44,7 @@ function Contact() {
                         <input type="hidden" name="_autoresponse" value="Hi there! Thanks for reaching out, I'm happy to have you here. You'll get a reply shortly from now."></input>
                       </li>
                       <li>
-                        <textarea type="text" name="message" id="context" cols="30" rows="10" placeholder='Message...' />
+                        <textarea type="text" name="message" id="context" cols="30" rows="10" placeholder='Message...' required />
                       </li>
                       <li>
                         <button type='submit'>Send</button>
