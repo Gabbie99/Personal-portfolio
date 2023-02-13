@@ -28,21 +28,23 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact-inp">
-                  <form action="" className='conform'>
+                  <form action="https://formsubmit.co/khoinom2018@gmail.com" method="POST" className='conform'>
                     <ul>
                       <div className="contact-list">
                         <li>
-                          <input type="text" placeholder='Your name*' name='form_name' className='inp' required />
+                          <input type="text" placeholder='Your name*' name='name' className='inp' required />
                         </li>
                         <li>
-                          <input type="text" placeholder='email*' name='email' className='inp' required />
+                          <input type="email" placeholder='Email*' name='email' className='inp' required />
                         </li>
                       </div>
                       <li>
-                        <input type="text" placeholder='subject' name='text' className='txt' />
+                        <input type="text" placeholder='subject' name='_subject' className='txt' />
+                        <input type="hidden" name="_subject" value="New Friendly Message!"></input>
+                        <input type="hidden" name="_autoresponse" value="Hi there! Thanks for reaching out, I'm happy to have you here. You'll get a reply shortly from now."></input>
                       </li>
                       <li>
-                        <textarea name="message" id="context" cols="30" rows="10" placeholder='Message...' />
+                        <textarea type="text" name="message" id="context" cols="30" rows="10" placeholder='Message...' />
                       </li>
                       <li>
                         <button type='submit'>Send</button>

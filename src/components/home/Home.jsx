@@ -6,7 +6,7 @@ import git2 from '../../assets/git2.svg'
 
 function Home() {
   return (
-    <div className='myhome'>
+    <div className='myhome'> 
         <div className="home1">
             <a href="#about"><img src={profile} alt="me" width={200} height={200} className="pro" /></a>
             <h1>Gabrielle Alexander</h1>
