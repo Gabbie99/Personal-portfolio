@@ -9,10 +9,7 @@ function App() {
   return (
     <div className="App">
       <LandingPage/>
-      <AboutMe/>
-      <Technical/>
-      <Projects/>
-      <Contact/>
+      
     </div>
   );
 }

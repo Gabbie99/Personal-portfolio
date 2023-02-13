@@ -12,6 +12,10 @@ function LandingPage() {
           <NavBar/>
         </div>
         <Home/>
+        <AboutMe/>
+        <Technical/>
+        <Projects/>
+        <Contact/>
     </div>
   )
 }
