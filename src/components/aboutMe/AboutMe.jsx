@@ -9,7 +9,7 @@ function AboutMe() {
         <h1>About Me &#128156;</h1>
         <div className="about-me">
             <div className='about-img'>
-                <img src={gabbie} alt="lady" width={150}
+                <img src={gabbie} alt="lady" width={180}
                 height={300} />
             </div>
             <div className='about-text'>
