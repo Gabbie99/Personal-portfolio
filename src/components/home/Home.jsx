@@ -9,7 +9,7 @@ function Home() {
     <div className='myhome'> 
         <div className="home1">
             <a href="#about"><img src={profile} alt="me" width={200} height={200} className="pro" /></a>
-            <h1>Gabrielle Alexander</h1>
+            <h1>Gabrielle Idoko</h1>
             <p>I'm a front-end developer</p>
             <div className="icons">
             <FacebookLogo size={20} color="white" weight="fill" />

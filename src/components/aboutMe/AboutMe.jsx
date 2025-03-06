@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
-import blackb from '../../assets/redcup.webp'
+import gabbie from '../../assets/gabbie prof.jpg'
 
 function AboutMe() {
   return (
@@ -9,13 +9,13 @@ function AboutMe() {
         <h1>About Me &#128156;</h1>
         <div className="about-me">
             <div className='about-img'>
-                <img src={blackb} alt="lady" width={300}
+                <img src={gabbie} alt="lady" width={150}
                 height={300} />
             </div>
             <div className='about-text'>
-                <p>Gabrielle Alexander is a Mathematics and Education graduate transitioning into Web designs and development. She is a well taught Frontend developer specialized in building responsive websites.</p>
+                <p>Gabrielle Idoko is a Mathematics and Education graduate transitioning into Web designs and development. She is a well taught Frontend developer specialized in building responsive websites.</p>
                 <p>She is an optimistic, enthusiastic and motivated frontend developer that is seeking an opportunity to contribute massively to various institutions and organisations by implementing ideas, ideas, concepts and methodologies learned, in this way, adding values to the organization and society at large.</p>
-                <p>Miss Gabrielle is passionate about building beautiful and functional websites. I build projects using HTML, CSS, Javascript, React etc.</p>
+                <p>Gabrielle is passionate about building beautiful, user-friendly and functional websites. She build projects using HTML, CSS, Javascript, React etc. She is also learning Python to up her skill set.</p>
                 <div className="about-contact">
                     <span><a href='#contact'>Contact Me</a></span>
                 </div>

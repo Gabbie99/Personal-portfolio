@@ -41,6 +41,10 @@
     border: 1px solid rgb(183, 124, 238);
     padding: 4px;
 }
+.about-img img{
+    border-radius: 50%;
+    object-fit:cover
+}
 @media (max-width:425px) {
     .about-me {
         display: block;
@@ -51,6 +55,7 @@
     .about-img img {
         width: 250px;
         height: 250px;
+        border-radius: 50%;
 
     }
     .about {
