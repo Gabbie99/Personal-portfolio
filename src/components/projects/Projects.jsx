@@ -12,7 +12,7 @@ function Projects() {
                 <div className='pro-img'>
                     <img src={thumb1} alt="" className='thum' />
                     <h3>Bar-Chart</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sed corrupti rem cupiditate in magni. Odit, deserunt eveniet. Ut aliquid harum ipsam ducimus perspiciatis, cupiditate deserunt a error doloribus consectetur?</p>
+                    <p>This project aims to create a visually compelling and data-driven bar chart that effectively communicates key insights. The design will prioritize clarity, accessibility, and aesthetics, ensuring users can quickly interpret the data. </p>
                     <div className='pro-span'>
                         <span>HTML</span>
                         <span>CSS</span>
